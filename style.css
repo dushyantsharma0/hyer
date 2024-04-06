@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.textmy{
+    font-family: Algerian;
+    color: wheat;
+}
+
+.mybrder{
+    z-index: 5000;
+    font-size: 20px !important;
+}
+.mybrder:hover{
+    font-weight: 500;
+    font-size: 20px !important;
+    color: black;
+background: white;
+
+}
+.mybrder2:hover{
+    font-weight: 500;
+    font-size: 20px !important;
+    color: rgb(255, 255, 255);
+background: transparent;
+border: 1px solid white;
+
+}
+.mytext{
+    font-family: Algerian;
+    color: #726e6e;
+}
+.mytext2{
+    font-family: Algerian;
+    
+}
+hr {
+    height: 2px; /* Set the desired height in pixels */
+    width: auto; /* Set the width to auto or a specific value */
+    background-color: #3e3c3e; /* Set the background color */
+   /* Set the border style and width */
+  }
+
+  .imgnew{
+    width: 250px;
+  }
+  .imgnew:hover{
+    width: 255px;
+  }
+  .bgimg {
+  position: relative;
+  background-image: url("https://media.istockphoto.com/id/916430298/photo/multi-ethnic-college-students-discussing-project-together.jpg?s=1024x1024&w=is&k=20&c=0It4wrNwIcy_HmwAX63X_ncYDB9xfJsfCuqsyifGHfg="); /* Set the position to relative */
+}
+
+.bgimg::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.7); /* Adjust the alpha value (0.5) to set the opacity of the overlay */
+}
+  .bx-wrapper {
+    background: transparent; /* Set the background to transparent */
+    border: transparent;
+    z-index: 500;
+  }
+  .btn4:hover{
+  background: transparent;
+  color: white;
+  }
